@@ -1,0 +1,32 @@
+*{
+    background-color: #2596be;
+    margin-top: 7%;
+    text-align: center;
+    
+}
+
+option{
+    background-color: white;
+}
+
+select{
+    background-color: white;
+    display: none;
+}
+
+button{
+    background-color: white;
+    border-radius: 30px;
+    display: inline;
+}
+
+@media (max-width: 576px) {
+    #btn{
+        display: none;
+        color: white;
+    }
+    #select{
+        display: inline-block;
+    }
+}
+
