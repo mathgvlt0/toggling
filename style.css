@@ -11,22 +11,20 @@ option{
 
 select{
     background-color: white;
-    display: none;
 }
 
 button{
     background-color: white;
-    border-radius: 30px;
-    display: inline;
+    border-radius: 30px; 
+    display: none;
 }
 
-@media (max-width: 576px) {
-    #btn{
-        display: none;
-        color: white;
+@media (min-width: 576px) {
+    button{
+        display: inline-block;
     }
     #select{
-        display: inline-block;
+        display: none;
     }
 }
 
